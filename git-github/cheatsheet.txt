@@ -1,0 +1,4 @@
+
+CHEATSHEET GIT GITHUB
+git init: sirve para inicializar el repositorio local
+
