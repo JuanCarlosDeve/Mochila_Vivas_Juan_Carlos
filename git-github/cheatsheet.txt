@@ -1,0 +1,31 @@
+
+CHEATSHEET GIT GITHUB
+Lista de comandos básicos 
+git init: Inicia o crea un repositorio.
+$ git init
+git status: Visualiza el estado del repositorio.
+$ git status
+git add: Prepara contenido para la próxima confirmación.
+$ git add nombre_del_archivo
+$ git add . 
+git commit: Guarda contenido actual junto con un mensaje de registro de usuario que describe los cambios.
+$ git commit -m "Mensaje descriptivo"
+git clone: Clona un repositorio existente.
+$ git clone [url]
+git branch: Una branch no es mas que un puntero para desplazamiento de un commit a otro, se puede utilizar de varias formas:
+$ git branch  //Muestra las branches exitentes en un repositorio
+$ git branch nombre_branch  //Crea una nueva branch
+$ git branch -M nombre_branch //para renombrar la branch actual
+git checkout: Para cambiar de una branch para otra.
+$ git checkout
+$ git checkout -b nombre_branch //Crea una nueva branch y apunta para ella.
+git log: Muestra el historial de commit, se puede usar de varias formas:
+$ git log
+$ git log --oneline
+git remote: Muestra el repositorio remoto:
+$ git remote
+$ git remote -v
+git pull: Descarga el contenido de repositorio remoto y actualiza automáticamente el repositorio local.
+$ git pull
+git push: Envia contenido desde el repositorio local y actualiza automaticamente el repositorio remoto
+$ git push
