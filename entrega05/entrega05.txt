@@ -1,0 +1,29 @@
+1. ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?
+
+Un lenguaje de programación puede estar diseñado específicamente para funcionar en determinados sistemas operativos debido a varias razones:
+
+Dependencia del sistema operativo: Algunos lenguajes de programación están estrechamente vinculados al sistema operativo en el que se ejecutan. Pueden utilizar características o funcionalidades específicas del sistema operativo que no están disponibles en otros sistemas. Por lo tanto, estos lenguajes solo se pueden utilizar en los sistemas operativos compatibles.
+
+Compilación y tiempo de ejecución: Al compilar o ejecutar un programa escrito en un lenguaje de programación, se requiere un compilador o intérprete específico para ese lenguaje. Estas herramientas pueden estar disponibles solo para ciertos sistemas operativos. Por lo tanto, si no hay un compilador o intérprete adecuado para un lenguaje en un sistema operativo específico, no se podrá utilizar ese lenguaje en ese sistema.
+
+Bibliotecas y APIs: Algunos lenguajes de programación se basan en bibliotecas y APIs (Interfaces de Programación de Aplicaciones) específicas del sistema operativo para acceder a recursos del sistema, como la interfaz gráfica, el sistema de archivos o la red. Si estas bibliotecas y APIs no están disponibles en un sistema operativo determinado, el lenguaje puede no funcionar correctamente o no ser compatible.
+
+Elección de diseño: En algunos casos, los creadores de lenguajes de programación pueden decidir enfocarse en sistemas operativos específicos debido a consideraciones de diseño, objetivos o limitaciones técnicas. 
+
+2. ¿Qué tipo de máquina virtual es virtualBox?
+VirtualBox es un software de virtualización de código abierto que permite crear y ejecutar máquinas virtuales en diversos sistemas operativos. Es una solución de virtualización de tipo 2, lo que significa que se instala y se ejecuta en un sistema operativo host existente.
+
+VirtualBox funciona creando una capa de abstracción entre el sistema operativo host y las máquinas virtuales. Proporciona una máquina virtual virtualizada, que emula un conjunto de recursos de hardware, como CPU, memoria, dispositivos de almacenamiento y red. Esta máquina virtual se ejecuta como un proceso en el sistema operativo host.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+Cada máquina virtual se ejecuta de forma aislada y se considera como un entorno virtual separado.
+
+Sin embargo, existen algunos escenarios en los que una máquina virtual problemática puede afectar indirectamente a otras máquinas virtuales o al entorno de virtualización en general. Algunos posibles casos incluyen:
+
+Recursos compartidos: Si las máquinas virtuales están compitiendo por los recursos del sistema, como CPU, memoria o almacenamiento, un mal funcionamiento o un uso excesivo de recursos por parte de una máquina virtual puede reducir el rendimiento de las demás. Esto puede causar ralentizaciones o falta de capacidad de respuesta en las máquinas virtuales restantes.
+
+Problemas de red: Si una máquina virtual tiene problemas de red, como la saturación de la conexión o la interferencia en el tráfico de red, puede afectar indirectamente a otras máquinas virtuales que compartan la misma infraestructura de red virtual. Esto podría resultar en una degradación del rendimiento de la red para las demás máquinas virtuales.
+
+Vulnerabilidades o malware: Si una máquina virtual se ve comprometida por un ataque de malware o sufre una violación de seguridad, existe la posibilidad de que el ataque se propague a otras máquinas virtuales o incluso al sistema operativo host. Esto puede suceder si las máquinas virtuales comparten archivos o recursos a través de la funcionalidad de interconexión.
